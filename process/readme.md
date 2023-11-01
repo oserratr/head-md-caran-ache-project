@@ -41,12 +41,43 @@ Sur la partie focalisé sur les témoignages de personnes se mettant la pression
 - Peu de confiance en soi, comparaison avec l’entourage ou autres artistes qui peu démotiver, pense que son évolution n’est pas assez grande, attente d’un certain niveau considéré par la personne comme étant le “minimum”
 - Peur de finir une œuvre et d’échouer, de ne pas être a la hauteur des attentes en therme d’esthétique et de technique, refuse catégoriquement de se lancer pour ne pas produire de “mauvaises choses” 
 
-**Liens et forums**
+**Liens d'articles et forums**
+- https://www.reddit.com/r/ArtistLounge/comments/ki3zvz/what_would_be_a_list_of_drawing_fundamentals_and/
+- https://homesthetics.net/what-are-the-fundamentals/
+- https://www.reddit.com/r/IWantToLearn/comments/4ws0wj/i_was_wondering_about_the_fundamentals_of_drawing/
+- https://www.youtube.com/watch?v=qpqEE9yU474&list=PLDHJ4RxK-8Tgt-AmgLSdkgdhjL_RS5wrE
+- https://www.reddit.com/r/ArtistLounge/comments/kljwdq/why_am_i_so_bad_at_art/
 
 ### Recherches en ligne sur les retours haptiques
 
-### Expérimentations
+### Expérimentations (2 minutes pour chaques parties)
+
+#### Partie 1 : Dessiner au toucher
+
+Dessiner avec un objet dans la main sans le regarder (uniquement reconnaissance au toucher).
+
+*Observations*
+- Dessine en plusieurs étapes : au début la forme globale et ensuite certains détails
+- Mouvements plus "décomplexés"
+- Pas d'attentes/de déceptions sur le dessin final
+- Certaines personnes essayes de trouver quel est l'objet avant de le dessiner
+- Certaines vont utiliser en même temps leurs souvenirs et le tactile si il reconnaissent l'objet > Avaient l'air "rassuré"
+
+La plupart des personnes n'ont pas utilisé les 2 minutes.
+#### Partie 2 : Dessiner de façon classique
+
+Dessiner avec l'objet devant soi en ayant la possibilité de le manipuler, de le regarder.
+
+*Observations*
+- Plus de concentration sur l'objet que sur le dessin
+- Volonté de le reproduire en fonction de son positionnement, orientation...
+- Volonté d'aller dans les détails de l'objet, d'ajouter des ombrages
+- Moins de manipulation de l’objet, concentration sur une seule perspective
+
+La plupart des personnes ont utilisé les 2 minutes.
 
 ### Interviews
+
+*Quel est ton rapport au dessin ?*
 
 ## Prototypage
