@@ -113,4 +113,13 @@ La plupart des personnes ont utilisé les 2 minutes.
 
 *À partir de cartes tirées*
 **Roller - Color sensor - Wording - Too eager**
-![mindmap](/process/)
+
+![mindmap](/process/2023-10-30/IMG_3160.jpg)
+![mindmap](/process/2023-10-30/IMG_3159.jpg)
+![mindmap](/process/2023-10-30/IMG_3158.jpg)
+![mindmap](/process/2023-10-30/IMG_3155.jpg)
+
+Un objet qui lirait plusieurs cartes "couleur" que l’on pourrait insérer dans un boîtier qui écrirait sur n'importe quelle surface un poème en le tenant comme un gros rouleau de peinture.
+
+### Premières intentions d'interactions
+
