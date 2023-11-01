@@ -1,9 +1,12 @@
 # Recherche et processus
 
+*Quelques mots clés*
+**Expérience sensorielle - Narration - Liberté d'interprétation**
+
 ## Point de départ
 
 J'ai commencé a me demander ce que "AI Assistant" m'évoque dans le projet via une mindmap.
-![mindmap](/2023-10-20/mindmap-v1.jpg)
+![mindmap](/process/2023-10-20/mindmap-v1.jpg)
 
 ### Public
 
@@ -49,6 +52,11 @@ Sur la partie focalisé sur les témoignages de personnes se mettant la pression
 - https://www.reddit.com/r/ArtistLounge/comments/kljwdq/why_am_i_so_bad_at_art/
 
 ### Recherches en ligne sur les retours haptiques
+
+Plusieurs types de retours haptiques :
+- Simule de façon réaliste l'interaction avec un objet via : la texture, le poids, la résistance, le frottement de l'objet
+- Un retour haptique qui limite le mouvement : par exemple dans une simulation de conduite de voiture, un volant qui vas être limité dans la vitesse d'exécution du mouvement
+- Un retour haptique "actif" qui vas tout simplement être déclenché par une action/mouvement : par exemple dans les jeux vidéo pendant un combat avec un pnj sensation a chaque collision + ou - fortes
 
 ### Expérimentations 1 (2 minutes pour chaques parties)
 
@@ -102,3 +110,7 @@ La plupart des personnes ont utilisé les 2 minutes.
 - frustrations, déception, perfectionnisme, blocage sur détails, motivation pour s’améliorer, pudique sur le dessin en question...
 
 ## Prototypage
+
+*À partir de cartes tirées*
+**Roller - Color sensor - Wording - Too eager**
+![mindmap](/process/)
