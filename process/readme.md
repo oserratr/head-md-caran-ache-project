@@ -123,3 +123,13 @@ Un objet qui lirait plusieurs cartes "couleur" que l’on pourrait insérer dans
 
 ### Premières intentions d'interactions
 
+*Mots clés*
+**Vibrations - Draw - Sloppy - Palette**
+
+![mindmap](/process/2023-10-30/IMG_3161.jpg)
+
+Un objet qui crée une narration de façon aléatoire et divise chaque partie en X en fonction du nombre X de joueur.
+Chaque joueur dessine sa partie de la narration avec des indices révélé de façon haptique pour faire une grande fresque collaborative.
+La machine est négligente et peut donner 2 fois la même partie a des joueurs(par exemple).
+
+
