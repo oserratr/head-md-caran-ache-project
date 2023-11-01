@@ -114,22 +114,32 @@ La plupart des personnes ont utilisé les 2 minutes.
 *À partir de cartes tirées*
 **Roller - Color sensor - Wording - Too eager**
 
-![mindmap](/process/2023-10-30/IMG_3160.jpg)
-![mindmap](/process/2023-10-30/IMG_3159.jpg)
-![mindmap](/process/2023-10-30/IMG_3158.jpg)
-![mindmap](/process/2023-10-30/IMG_3155.jpg)
+![proto1](/process/2023-10-30/IMG_3160.jpg)
+![proto2](/process/2023-10-30/IMG_3159.jpg)
+![proto3](/process/2023-10-30/IMG_3158.jpg)
+![proto4](/process/2023-10-30/IMG_3155.jpg)
 
 Un objet qui lirait plusieurs cartes "couleur" que l’on pourrait insérer dans un boîtier qui écrirait sur n'importe quelle surface un poème en le tenant comme un gros rouleau de peinture.
 
 ### Premières intentions d'interactions
 
+1.
 *Mots clés*
 **Vibrations - Draw - Sloppy - Palette**
 
-![mindmap](/process/2023-10-30/IMG_3161.jpg)
+![proto4](/process/2023-10-30/IMG_3161.jpg)
 
 Un objet qui crée une narration de façon aléatoire et divise chaque partie en X en fonction du nombre X de joueur.
 Chaque joueur dessine sa partie de la narration avec des indices révélé de façon haptique pour faire une grande fresque collaborative.
 La machine est négligente et peut donner 2 fois la même partie a des joueurs(par exemple).
 
+2.
+![proto5](/process/2023-11-01/image0.jpeg)
 
+Un objet ayant différents types : texture, poids, forme, résistance / physique. Qui inciterait à l'utilisateur de choisir un partern qui lui plaît dans chaque type d'objet (en le secouant). À la fin du choix, il assemblerait les différents objets pour créer une seule vibration cohérente qui laisserait place à l'interprétation de l'utilisateur, et ainsi, qu'il puisse mettre sur papier.
+
+3.
+![proto6](/process/2023-11-01/image1.jpeg)
+
+Un objet qui pourrait être enfilé autour d'un stylo/crayon, ou être un stylo/crayon qui sur la base d'un paysage va traduire en vibrations les sensations que l'on peut ressentir dans cet environnement. (chasse au trésor, jeu du chaud-froid)
+Et pourquoi pas laisser l'utilisateur manifester comment il interprète cet environnement via le dessin ou l'écriture.
