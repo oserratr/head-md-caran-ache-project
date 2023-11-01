@@ -50,7 +50,7 @@ Sur la partie focalisé sur les témoignages de personnes se mettant la pression
 
 ### Recherches en ligne sur les retours haptiques
 
-### Expérimentations (2 minutes pour chaques parties)
+### Expérimentations 1 (2 minutes pour chaques parties)
 
 #### Partie 1 : Dessiner au toucher
 
@@ -79,5 +79,26 @@ La plupart des personnes ont utilisé les 2 minutes.
 ### Interviews
 
 *Quel est ton rapport au dessin ?*
+- L’ensemble des personnes interviewer ont commencé le dessin jeune / très jeune : graffiti, dessin a l’école (maternelle, primaire, etc...), activité ludique pour les enfant, concours de dessin, decalcage
+- Arrêt de la pratique du dessin pendant un certain temps (souvent entre le collège/lycée)
+- Reprise de la pratique par envie, par ennui,
+- Pas évident de trouver son propre style graphique,
+- Pression par apport au dessin et aux autres
+
+*A quels moment dessine tu ? Dans que contexte ?*
+- Pratique de différentes manières : par ennui, professionnellement,  gribouillages sur n’importe quel feuille, par envie, inspiration du moment, ne se limite pas qu’au dessin mais aux arts créatifs, extérioriser, dessiner des souvenirs, fortes émotions, défis/challenges techniques...
+
+*A quels moment dessine tu ? Dans que contexte ?*
+- Quels sont selon toi les "critères conventionnels" pour qu'un dessin soit réussi ? Est-ce que tu essaies de les appliquer? Et pourquoi ?
+
+*A quels moment dessine tu ? Dans que contexte ?*
+- Subjectif, pas de dessin réussi ou non : doit plaire d’abord a sois même, pas de catégories spécifiques, dessiner au feeling, être fière de son dessin spontanéité. Définition de ces propres critères.
+- Pas de manière de dessiner, sauf dans filière très académique. Liberté, assez fort dans le dessin, chacun peut avoir son style, chacun peut faire comme il l’entend.N’essaye pas d’appliquer ces codes académiques.
+- Pour des commandes “professionnelles”, certains critères sont parfois a respecter en fonction de cette dernière : proportions, niveau de réalisme en s’appuyant sur des images de références, bon choix de couleurs, beau ombrages, tracées droits. Exemple de la main : importance du réalisme de sa posture, etc...
+
+*Que ressens tu si ton dessin ne correspond pas à ce que tu envisageais?*
+- n’anticipe pas ce qui vas être dessiner, totalement freestyle, toujours les même gribouillis et lettres, pour passer le temps, s’attend souvent au résultat que ça va
+être, pas d’étonnement spécifique sur le “résultat final”
+- frustrations, déception, perfectionnisme, blocage sur détails, motivation pour s’améliorer, pudique sur le dessin en question...
 
 ## Prototypage
