@@ -166,7 +166,7 @@ Et pourquoi pas laisser l'utilisateur manifester comment il interprète cet envi
 
 ## Idéation, prototypage et user journey
 
-1.
+1. Histoires cachées
 ![proto7](/process/2023-11-07/plateau-interactif-construction-ar.jpg)
 
 Concept autour de la construction du type lego/kapla sur une tablette haptique qui guide l'utilisateur sur les différents endroits qu'il explore en interpretant lui même sa propre narration.
