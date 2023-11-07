@@ -143,3 +143,29 @@ Un objet ayant différents types : texture, poids, forme, résistance / physique
 
 Un objet qui pourrait être enfilé autour d'un stylo/crayon, ou être un stylo/crayon qui sur la base d'un paysage va traduire en vibrations les sensations que l'on peut ressentir dans cet environnement. (chasse au trésor, jeu du chaud-froid)
 Et pourquoi pas laisser l'utilisateur manifester comment il interprète cet environnement via le dessin ou l'écriture.
+
+# Approfondissement des recherches
+
+*Quelques mots clés (mise à jour)*
+**Expérience sensorielle - Narration - Liberté d'interprétation - Création intuitive grâce à un guide**
+
+## Expérimentations
+
+----- ( a definir ajd)
+
+## Idéation, prototypage et user journey
+
+1.
+Construction du type lego/kapla sur une tablette haptique qui guide l'utilisateur sur les différents endroits qu'ils explore
+
+## Mise à jour prototypages
+(a maj après test + experimentations)
+
+## Idée + aboutie (+ prototype v 2)
+
+## Pitch idée
+
+
+## Pousser le projet
+-> rendre le projet + poétique
+-> le comportement de l'ia?
