@@ -151,12 +151,29 @@ Et pourquoi pas laisser l'utilisateur manifester comment il interprète cet envi
 
 ## Expérimentations
 
------ ( a definir ajd)
+### Etre guider de différentes façons pour dessiner
+- être guider par une combinaison de gestes comme dans un jeux pour faire de la musique,
+- relier des points en faisant des additions (cahiers de dessins pour enfants),
+- chenille version dessin (chaque personne dessine dans le dos de la personne devant),
+- relier des points en faisant des additions (cf livres de vacances pour enfants),
+- guide lumineux 
+
+### Perturber le dessin de la personne
+- bouger la feuille dans une direction de façon aléatoire et spontanée
+- bloquer la vue de façon aléatoire et spontanée
+- faire des mouvements brusques à coté
+- deplacer le stylo pendant un bref instant
 
 ## Idéation, prototypage et user journey
 
 1.
-Construction du type lego/kapla sur une tablette haptique qui guide l'utilisateur sur les différents endroits qu'ils explore
+![proto7](/process/2023-11-07/plateau-interactif-construction-ar.jpg)
+
+Concept autour de la construction du type lego/kapla sur une tablette haptique qui guide l'utilisateur sur les différents endroits qu'il explore en interpretant lui même sa propre narration.
+
+### User Journey du prototype
+
+
 
 ## Mise à jour prototypages
 (a maj après test + experimentations)
@@ -165,7 +182,5 @@ Construction du type lego/kapla sur une tablette haptique qui guide l'utilisateu
 
 ## Pitch idée
 
-
 ## Pousser le projet
--> rendre le projet + poétique
 -> le comportement de l'ia?
