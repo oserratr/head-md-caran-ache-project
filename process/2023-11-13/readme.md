@@ -8,8 +8,8 @@ Découvrez une expérience de création intuitive, ludique et accessible pour to
 
 ### Prototype 1
 
-![user journey of prototype 1](2023-11-13/user%20journey_User%20journey%20prototype%201.jpg)
+![user journey of prototype 1](/process/2023-11-13/user%20journey_User%20journey%20prototype%201.jpg)
 
 ### Prototype 2
 
-![user journey of prototype 2](/user%20journey_User%20journey%20prototype%202.jpg)
+![user journey of prototype 2](/process/2023-11-13/user%20journey_User%20journey%20prototype%202.jpg)
