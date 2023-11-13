@@ -26,3 +26,9 @@ L'objet pourrait avoir un comportement impatient, sans (trop) empiété sur le p
 OU
 
 L'objet pourrait avoir un comportement de teasing
+
+
+## a approfondir
+
+-> l'output final?
+-> le comportement ?
