@@ -23,11 +23,15 @@ L'utilisateur choisit les anneaux qu'il finit par assembler comme un "totem" sur
 
 ### Paper prototype & user testing
 
-## Behavior of the object
+## Behavior of the object ?
 
 *(A integrer dans les tests de prototype, a determiner)*
 
-## a approfondir
+## What physical (or virtual 3d) objects are necessary to carry out the user scenario?
 
--> l'output final?
--> le comportement ?
+* Outils de dessins variés,
+* Feuilles de papiers
+
+## Target audience
+
+### Who is my target audience and in which context shall my project be evolving?
