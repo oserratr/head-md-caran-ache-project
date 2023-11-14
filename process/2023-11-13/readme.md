@@ -1,21 +1,27 @@
 # Defining an idendity
 
+## Retours de Laure
+
+* Revoir l'output : avoir un element physique (mieux), que digital (du type AR), plus se tourner vers le drawing machine,
+* Redefinir l'utilisation des vibrations,
+* Explorer, utiliser les outils de dessins,
+* Donner des contraintes a l'IA dans le côté génératif,
+* Experimenter (prototype papier) une forme assez large pour une prise avec les deux mains a la fois,
+* Definir l'input (ce que definit/donne l'utilisateur)
+
 ## Pitch
 
-Découvrez une expérience de création intuitive, ludique et accessible pour tous : pratiquant ou non d’arts créatifs ! Cet objet vous permet de collaborer avec une IA pour composer ensemble une œuvre originale, guidée uniquement par le sens du toucher. Libérez votre créativité, explorez, expérimentez de nouvelles façons de raconter des histoires.
-
-objectif objet :
-Interagir avec un espace qu'on ne voit pas, l'interpréter via des vibrations, dessiner/moduler l'espace/assembler une histoire tout au long du voyage.
+Interagir avec un espace qu'on assemble mais qu'on ne connais pas, le découvrir et le dévoiler via des vibrations tout au long du voyage.
 
 ## User scenario
 
-### Prototype 1
+### Concept
+
+L'utilisateur choisit les anneaux qu'il finit par assembler comme un "totem" sur l'objet (input), qui, en fonction des combinaisons choisi générer un paysage que l'utilisateur doit découvrir et dévoiler. Pour cela, il devra se balader avec l'objet sur un canva (feuille) et jouer avec les vibrations pour trouver les endroits intéressants. Une fois trouvé, il pourra attendre et contempler cette partie du paysage à la fois avec des vibrations qui simuleraient les textures, ainsi qu'avec le dessin qu'effectue l'objet. L'utilisateur peut continuer jusqu'à ce qu'il ne ressente plus de vibration sur tout le canva.
+
+### Paper prototype & user testing
 
 ![user journey of prototype 1](/process/2023-11-13/user%20journey_User%20journey%20prototype%201.jpg)
-
-### Prototype 2
-
-![user journey of prototype 2](/process/2023-11-13/user%20journey_User%20journey%20prototype%202.jpg)
 
 ## Behavior of the object
 
