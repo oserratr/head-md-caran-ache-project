@@ -36,3 +36,5 @@ L'utilisateur choisit les anneaux qu'il finit par assembler comme un "totem" sur
 
 ### Who is my target audience and in which context shall my project be evolving?
 revoir l'output de l'objet - manque la collaboration
+
+-> explorer differents prototypes (laisser par terre a plusieurs + tracer le chemin et dessin autour)
