@@ -36,7 +36,7 @@
 - Souris sans fils
 - Capteur de rfid **ou** capteur de couleur
 - Raspberry pi ? (plus performant ?)
-- Arduino nano 33 ble sense pour vibrations ?
+- Arduino nano 33 ble sense pour vibrations ? ou vibrator motor ?
 - Petit écran
 - un haut parleur
 - Imprimante
