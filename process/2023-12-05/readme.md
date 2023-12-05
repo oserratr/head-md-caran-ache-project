@@ -38,5 +38,13 @@
 - Raspberry pi ? (plus performant ?)
 - Arduino nano 33 ble sense pour vibrations ? ou vibrator motor ?
 - Petit écran
+- Capteur de luminosité
 - un haut parleur
 - Imprimante
+
+## Forme de l'objet
+
+### Sketch
+
+
+### 3D
