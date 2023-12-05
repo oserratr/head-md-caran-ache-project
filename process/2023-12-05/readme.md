@@ -26,21 +26,22 @@
 ### Est-ce que les solutions sont plus simples et faisable ?
 
 - Pour le choix des input : (a mon avis faisable) avec capteur rfid ou ncf ou capteur de couleur. Interpretation de l'id du tag par le programme. Fake IA avec choix random dans bibliothèque de plusieurs dessins deja fait + animation du drawing.
-- Le joueur doit poser l'objet sur un endroit donné du plateau de jeu dans une orientation indiquée. Detournement d'une souris sans fil en guise de curseur pour situé l'objet sur le plateau de jeu et suivre ses déplacement. Exploration du plateau de jeu grâce a l'intensité des vibrations. Quand endroit clé trouvé : plus de vibrations + feedback sonore. Endroit clé activé grace a puce ou capteur ?? **Est-ce que je peux definir les endroits clés directement avec le dessin ?**
+- Le joueur doit poser l'objet sur un endroit donné du plateau de jeu dans une orientation indiquée. Detournement d'une souris sans fil en guise de curseur pour situé l'objet sur le plateau de jeu et suivre ses déplacement. Exploration du plateau de jeu grâce a l'intensité des vibrations. Quand endroit clé trouvé : plus de vibrations + feedback sonore?. Endroit clé activé grace a puce ou capteur ?? **Est-ce que je peux definir les endroits clés directement avec le dessin ?**
 - Viens la revelation de la partie du paysage avec l'animation du dessin sur l'écran. (a mon avis faisable)
 - Impression envoyé par l'arduino du dessin lorsque tout les capteurs sont desactivés.
 
 
 ## Liste electronique / matériel
 
-- Souris sans fils
-- Capteur de rfid **ou** capteur de couleur
-- Raspberry pi ? (plus performant ?)
-- Arduino nano 33 ble sense pour vibrations ? ou vibrator motor ?
-- Petit écran
-- Capteur de luminosité
-- un haut parleur
-- Imprimante
+- Souris sans fils : https://www.amazon.fr/NOUVEAU-BLUESTORK-Souris-boutons-m%C3%A9tal/dp/B07MQK52ZD/ref=sr_1_9?crid=QT7YMVB5BMV8&keywords=souris+sans+fil&qid=1701787534&sprefix=souris+%2Caps%2C88&sr=8-9 
+- Capteur de rfid **ou** capteur de couleur : capteur RFID deja dans arduino
+- Raspberry pi ? (plus performant ?) ou Arduino nano 33 ble sense ? bluethoot ou wifi en fonction de imprimante : https://www.adafruit.com/product/3055 **ou** https://www.pi-shop.ch/arduino-nano-rp2040-connect 
+- Vibration motor : https://www.adafruit.com/product/1201
+- Controller vibration motor : https://www.adafruit.com/prosduct/2305
+- Grand écran : Umprunter au lab media design
+- Capteur de luminosité : a voir si compatible avec raspberry mais déja dans le kit arduino
+- Un haut parleur : pour feeback sonore peut être suffisant celui arduino mais bruit clair mieux? 
+- Imprimante portable wifi : https://ideen-platz.ch/products/thermodrucker?variant=47209533538591&currency=CHF&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=Cj0KCQiAsburBhCIARIsAExmsu6Te9gJFSxDUFjsrHqdM9sC8CGWwPP8NKFLgbDwHYmxwBt1tiveOvYaAgn5EALw_wcB
 
 ## Forme de l'objet
 
@@ -48,3 +49,15 @@
 
 
 ### 3D
+
+
+
+### Retour liste electronique
+
+- Retour de l'axidraw 
+- Souris bluethoot caché dans un objet mobile
+- Programme processing sur ordi (raspberry pi)
+- Detection des zones sensibles avec vibrations
+- Zones activé -> entraine une partie de dessin sur axidraw + desactive la zone + desactive les vibrations le temps du dessin
+- Esp 32 HM10C et baterie pour alimenté vibreur dans objet
+- https://www.sparkfun.com/products/15663
