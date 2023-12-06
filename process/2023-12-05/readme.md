@@ -48,7 +48,6 @@
 ### Sketch
 
 
-### 3D
 
 
 
@@ -61,3 +60,7 @@
 - Zones activé -> entraine une partie de dessin sur axidraw + desactive la zone + desactive les vibrations le temps du dessin
 - Esp 32 HM10C et baterie pour alimenté vibreur dans objet
 - https://www.sparkfun.com/products/15663
+
+**Shémas éléctrique et physique (pas remis au propre)**
+
+![electrique shema](/electronics/2023-12-05/shema-physique-electrique-prototype.jpg)
