@@ -47,12 +47,12 @@
 ### Retour liste electronique (MAJ)
 
 - Retour de l'axidraw 
-- Souris bluethoot caché dans un objet mobile
-- Programme processing sur ordi (raspberry pi)
-- Detection des zones sensibles avec vibrations
+- Souris bluethoot caché dans un objet mobile --
+- Programme processing sur ordi (raspberry pi)--
+- Detection des zones sensibles avec vibrations--
 - Zones activé -> entraine une partie de dessin sur axidraw + desactive la zone + desactive les vibrations le temps du dessin
-- Esp 32 et baterie pour alimenté vibreur dans objet
-- https://www.sparkfun.com/products/15663
+- Esp 32 et baterie pour alimenté vibreur dans objet--
+- https://www.sparkfun.com/products/15663 --
 
 **Shémas éléctrique et physique (pas remis au propre)**
 
