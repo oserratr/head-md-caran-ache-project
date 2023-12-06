@@ -43,22 +43,15 @@
 - Un haut parleur : pour feeback sonore peut être suffisant celui arduino mais bruit clair mieux? 
 - Imprimante portable wifi : https://ideen-platz.ch/products/thermodrucker?variant=47209533538591&currency=CHF&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=Cj0KCQiAsburBhCIARIsAExmsu6Te9gJFSxDUFjsrHqdM9sC8CGWwPP8NKFLgbDwHYmxwBt1tiveOvYaAgn5EALw_wcB
 
-## Forme de l'objet
 
-### Sketch
-
-
-
-
-
-### Retour liste electronique
+### Retour liste electronique (MAJ)
 
 - Retour de l'axidraw 
 - Souris bluethoot caché dans un objet mobile
 - Programme processing sur ordi (raspberry pi)
 - Detection des zones sensibles avec vibrations
 - Zones activé -> entraine une partie de dessin sur axidraw + desactive la zone + desactive les vibrations le temps du dessin
-- Esp 32 HM10C et baterie pour alimenté vibreur dans objet
+- Esp 32 et baterie pour alimenté vibreur dans objet
 - https://www.sparkfun.com/products/15663
 
 **Shémas éléctrique et physique (pas remis au propre)**
