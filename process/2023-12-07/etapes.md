@@ -8,11 +8,11 @@
 
 ## Matériaux
 
-- Bois :
+- Bois (plateau + socle pion) :
     - CNC
     - Polir
 
-- Plastique :
+- Plastique (parite haute du pion) :
     - Impression 3D
     - Thermoformage
 
