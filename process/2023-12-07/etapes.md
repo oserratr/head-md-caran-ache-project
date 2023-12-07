@@ -1,9 +1,9 @@
-# Toutes les étpaes pour contruire la chose
+# Toutes les étapes pour contruire la chose
 
 ## Forme
 
 - Modélisation 3D (Fusion 360)
-    - Curseur, pion (Outil)
+    - Curseur, pion
     - Plateau de jeu
 
 ## Matériaux
