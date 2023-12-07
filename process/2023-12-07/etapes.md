@@ -37,13 +37,16 @@
         - Rfid tag
         - Moteur de vibration
 - Dimensions
-    - 64,7x22,8 mm esp32
-    - 5.6mm x 49.2mm x 68.8mm Battery
-    - 99 mm x 60 mm x 39 mm souris sans fils
-    - 24 mm x 20 mm x 9.8 mm vibrateurs
-    - 85 mm x 56mm raspberry pi
-    - 40 mm x 60 mm capteur rfid
-    - 25mm tag rfid
+    - Pion :
+        - 64,7x22,8 mm esp32
+        - 5.6mm x 49.2mm x 68.8mm Battery
+        - 99 mm x 60 mm x 39 mm souris sans fils
+        - 24 mm x 20 mm x 9.8 mm vibrateurs
+        - 40 mm x 60 mm capteur rfid
+        - 25mm tag rfid
+    - Vers axidraw :
+        - 85 mm x 56mm raspberry pi
+
 - Cablage
 ???
 - Puissance requise
