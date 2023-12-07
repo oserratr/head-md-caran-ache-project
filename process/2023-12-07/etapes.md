@@ -20,7 +20,7 @@
 
 - Raspberry pi/Ordinateur
     - Code
-        - Drawing machine
+        - Control drawing machine
         - Bluetooth connexion de l'esp32
         - Détection des deplacements de l'objet
     - Inputs
