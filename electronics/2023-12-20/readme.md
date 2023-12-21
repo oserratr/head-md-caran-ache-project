@@ -2,6 +2,7 @@
 
 - https://www.aranacorp.com/en/using-an-rfid-module-with-an-esp32/
 - https://learn.sparkfun.com/tutorials/esp32-thing-plus-hookup-guide/hardware-overview
+- https://www.handsontec.com/dataspecs/RC522.pdf
 
 
 ## Cablage
