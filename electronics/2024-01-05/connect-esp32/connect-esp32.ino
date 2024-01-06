@@ -1,16 +1,16 @@
 #include <WiFi.h>
+#include <WiFiUdp.h>
 #include <WiFiClient.h>
 #include <WiFiAP.h>
 
 const char *ssid = "Helvetia";     // Nom du réseau Wi-Fi
 const char *password = "Geneva-Lausanne-Bern-Zurich"; // Mot de passe du réseau Wi-Fi
 
-WiFiServer server(80); // Port 80 pour le serveur
-
+WiFiUDP udp;
+unsigned int localPort = 80;  // Port sur lequel écouter les données
 
 void setup() {
   Serial.begin(115200);
-  delay(10);
 
   // Connecter l'ESP32 au réseau Wi-Fi
   WiFi.begin(ssid, password);
@@ -20,44 +20,23 @@ void setup() {
   }
   Serial.println("Connecté au réseau WiFi");
 
-  // Démarrer le serveur
-  server.begin();
-  Serial.println("Serveur démarré");
+  // Attacher le port local à l'UDP
+  udp.begin(localPort);
+  Serial.println("En attente de données...");
 }
 
 void loop() {
-  // Attendre qu'un client se connecte
-  WiFiClient client = server.available();
-  if (!client) {
-    return;
+  char packetBuffer[255];
+  int packetSize = udp.parsePacket();
+
+  if (packetSize) {
+    udp.read(packetBuffer, packetSize);
+    packetBuffer[packetSize] = '\0';
+
+    // Exemple : afficher les données reçues sur la console série
+    Serial.print("Données reçues : ");
+    Serial.println(packetBuffer);
+
+    // Ajoutez votre logique ici pour traiter les données selon vos besoins
   }
-
-  // Attendre que le client envoie des données
-  while (client.connected() && !client.available()) {
-    delay(1);
-  }
-
-  // Lire les données du client
-  String request = "";
-  while (client.available()) {
-    char c = client.read();
-    request += c;
-  }
-  Serial.print("Données reçues du client : ");
-  Serial.println(request);
-
-  // Envoyer des données au client (réponse)
-  String response = "Hello from ESP32!";
-  client.println("HTTP/1.1 200 OK");
-  client.println("Content-Type: text/plain");
-  client.println("Connection: close");
-  client.println();
-  client.println(response);
-  Serial.print("Réponse envoyée au client : ");
-  Serial.println(response);
-
-  // Attendre un court instant avant de fermer la connexion
-  delay(10);
-  client.stop();
-  Serial.println("Client déconnecté");
 }
