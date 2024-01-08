@@ -6,12 +6,44 @@
   <title>Mouse Position Sender</title>
 </head>
 <body>
+  <canvas id="gradientMap" width="1000" height="900"></canvas>
+
   <script>
+    // Dessine la carte en dégradé de gris
+    function drawGradientMap() {
+      var canvas = document.getElementById('gradientMap');
+      var context = canvas.getContext('2d');
+
+      var gradient = context.createLinearGradient(0, 0, canvas.width, canvas.height);
+      gradient.addColorStop(0, 'black');
+      gradient.addColorStop(1, 'white');
+
+      context.fillStyle = gradient;
+      context.fillRect(0, 0, canvas.width, canvas.height);
+    }
+
+    // Appelle la fonction pour dessiner la carte au chargement de la page
+    window.onload = drawGradientMap;
+
     var socket = new WebSocket("ws://192.168.1.26:81"); // Remplacez l'adresse IP par celle de votre ESP32
 
     // Écoute des mouvements de la souris
     document.addEventListener('mousemove', function(event) {
-      var mouseData = { x: event.clientX, y: event.clientY };
+      var canvas = document.getElementById('gradientMap');
+      var context = canvas.getContext('2d');
+
+      var mouseX = event.clientX;
+      var mouseY = event.clientY;
+
+      var mouseData = { x: mouseX, y: mouseY };
+
+      // Obtenir la couleur en RGB à partir du pixel sous la souris
+      var pixel = context.getImageData(mouseX, mouseY, 1, 1).data;
+      var colorRGB = { r: pixel[0], g: pixel[1], b: pixel[2] };
+
+      // Ajouter la couleur RGB aux données envoyées à l'ESP32
+      mouseData.color = colorRGB;
+
       socket.send(JSON.stringify(mouseData));
     });
 

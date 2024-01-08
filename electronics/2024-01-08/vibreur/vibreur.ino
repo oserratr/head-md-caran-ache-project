@@ -1,26 +1,22 @@
 const int pinMoteurVibration = 15;  // Remplacez le numéro de broche selon votre configuration
+const int intensiteMin = 0;
+const int intensiteMax = 255;
 
 void setup() {
   pinMode(pinMoteurVibration, OUTPUT);
 }
 
 void loop() {
-  // Activer le moteur de vibration avec une intensité variable
-  for (int i = 0; i <= 255; i++) {
-    activerVibration(i);
-    delay(10);  // Ajoutez une petite pause pour rendre le changement d'intensité perceptible
-  }
+  // Lire l'intensité de vibration (peut être ajustée en fonction de la situation réelle)
+  int intensiteVibration = map(analogRead(pinMoteurVibration), 0, 1023, intensiteMin, intensiteMax);
 
-  // Attendre avant de désactiver le moteur
-  delay(2000);
+  // Activer les vibrations avec l'intensité lue
+  activerVibration(intensiteVibration);
 
-  // Désactiver le moteur de vibration
-  activerVibration(0);
-
-  // Attendre avant la prochaine activation
-  delay(2000);
+  // Attendre avant la prochaine itération
+  delay(100);
 }
 
 void activerVibration(int intensite) {
-  analogWrite(pinMoteurVibration, intensite);  // Utiliser PWM pour ajuster l'intensité
+  analogWrite(pinMoteurVibration, intensite);
 }

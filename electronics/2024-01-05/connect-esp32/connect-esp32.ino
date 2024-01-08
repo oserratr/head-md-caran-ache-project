@@ -7,26 +7,48 @@ const char *password = "Geneva-Lausanne-Bern-Zurich"; // Mot de passe du réseau
 
 WebSocketsServer webSocket = WebSocketsServer(81); // Utilisez le port 81 pour les WebSockets
 
+const int motorPin = 15;  // Broche à laquelle le moteur vibreur est connecté
+
 void parseMouseData(String data) {
-  // Exemple : supposons que les données sont au format JSON
-  // et ressemblent à {"x": 123, "y": 456}
   DynamicJsonDocument jsonDocument(256);
   deserializeJson(jsonDocument, data);
 
   int mouseX = jsonDocument["x"];
   int mouseY = jsonDocument["y"];
 
-  // Traitez les coordonnées de la souris (par exemple, affichez-les)
   Serial.print("Position de la souris - X: ");
   Serial.print(mouseX);
   Serial.print(", Y: ");
   Serial.println(mouseY);
+
+  // Traitement de la couleur RGB
+  if (jsonDocument.containsKey("color")) {
+    int redValue = jsonDocument["color"]["r"];
+    int greenValue = jsonDocument["color"]["g"];
+    int blueValue = jsonDocument["color"]["b"];
+
+    // Calculer la valeur moyenne des composants RGB
+    int averageColor = (redValue + greenValue + blueValue) / 3;
+
+    // Ajuster l'intensité de vibration en fonction de la valeur moyenne de couleur
+    int vibrationIntensity = map(averageColor, 0, 255, 0, 255);
+
+    // Activer le moteur vibreur avec l'intensité calculée
+    analogWrite(motorPin, vibrationIntensity);
+
+    // Affichage sur le moniteur série (facultatif)
+    Serial.print("Couleur RGB - R: ");
+    Serial.print(redValue);
+    Serial.print(", G: ");
+    Serial.print(greenValue);
+    Serial.print(", B: ");
+    Serial.println(blueValue);
+  }
 }
 
 void webSocketEvent(uint8_t num, WStype_t type, uint8_t *payload, size_t length) {
   switch (type) {
     case WStype_TEXT:
-      // Les données sont reçues au format texte
       String data = (char *)payload;
       parseMouseData(data);
       break;
@@ -49,6 +71,9 @@ void setup() {
   webSocket.begin();
   webSocket.onEvent(webSocketEvent);
   Serial.println("Serveur WebSockets démarré");
+
+  // Configurer la broche du moteur vibreur en sortie
+  pinMode(motorPin, OUTPUT);
 }
 
 void loop() {
