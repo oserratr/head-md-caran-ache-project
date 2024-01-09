@@ -25,7 +25,7 @@
     // Appelle la fonction pour dessiner la carte au chargement de la page
     window.onload = drawGradientMap;
 
-    var socket = new WebSocket("ws://192.168.1.26:81"); // Remplacez l'adresse IP par celle de votre ESP32
+    var socket = new WebSocket("ws://172.20.10.5:81"); // Remplacez l'adresse IP par celle de votre ESP32
 
     // Écoute des mouvements de la souris
     document.addEventListener('mousemove', function(event) {

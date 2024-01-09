@@ -2,8 +2,11 @@
 #include <WebSocketsServer.h>
 #include <ArduinoJson.h>
 
-const char *ssid = "Helvetia";     // Nom du réseau Wi-Fi
-const char *password = "Geneva-Lausanne-Bern-Zurich"; // Mot de passe du réseau Wi-Fi
+const char *ssid = "TP-Link_3AE9";     // Nom du réseau Wi-Fi
+const char *password = "78354944"; // Mot de passe du réseau Wi-Fi
+
+/*const char *ssid = "TP-Link_3AE9";     // Nom du réseau Wi-Fi
+const char *password = "78354944"; // Mot de passe du réseau Wi-Fi*/
 
 WebSocketsServer webSocket = WebSocketsServer(81); // Utilisez le port 81 pour les WebSockets
 
@@ -66,6 +69,7 @@ void setup() {
     Serial.println("Connexion au WiFi en cours...");
   }
   Serial.println("Connecté au réseau WiFi");
+  Serial.println(WiFi.localIP());
 
   // Démarrer le serveur WebSockets
   webSocket.begin();
