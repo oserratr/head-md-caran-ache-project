@@ -10,10 +10,25 @@ void setup() {
 
   // dégradé de nuance de gris
   //backgroundGradient();
-  background(169);
+  //background(169);
   //background(0);
   //background(249);
   //background(255);
+  background(255);  // Fond blanc
+
+  // Couleurs des rectangles
+  color[] colors = {color(255), color(249), color(0), color(169)};
+
+  // Largeur et hauteur des rectangles
+  int rectWidth = width / colors.length;
+  int rectHeight = height;
+
+  // Dessiner les rectangles côte à côte
+  for (int i = 0; i < colors.length; i++) {
+    fill(colors[i]);
+    rect(i * rectWidth, 0, rectWidth, rectHeight);
+  }
+
   
 }
 
@@ -36,7 +51,7 @@ void draw() {
   serial.write("IntensiteVibration : " + intensitevibration + "\n");
 
   // Attendez 1000 millisecondes (1 seconde)
-  delay(1000);
+  delay(600);
 }
 
 void backgroundGradient() {
