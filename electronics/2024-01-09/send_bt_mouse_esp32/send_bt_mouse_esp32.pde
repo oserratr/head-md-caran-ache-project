@@ -1,6 +1,7 @@
 import processing.serial.*;
 
 Serial serial;
+String rfidID = "";
 
 void setup() {
   println(Serial.list());
@@ -14,6 +15,8 @@ void setup() {
   //background(0);
   //background(249);
   //background(255);
+  
+  
   background(255);  // Fond blanc
 
   // Couleurs des rectangles
@@ -33,6 +36,20 @@ void setup() {
 }
 
 void draw() {
+// Lire les données du port série Bluetooth
+  while (serial.available() > 0) {
+    String data = serial.readStringUntil('\n');
+    if (data != null) {
+      // Afficher les données du tag RFID dans la console Processing
+      println("ID du Tag RFID : " + data);
+      
+      // Stocker l'ID du tag RFID dans la variable globale
+      rfidID = data.trim();
+    }
+  }
+  
+  println(rfidID);
+  
   // Obtenez la couleur de la position de la souris
   int currentColor = get(mouseX, mouseY);
 
