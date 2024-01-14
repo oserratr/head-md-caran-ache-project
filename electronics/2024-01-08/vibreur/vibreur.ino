@@ -5,11 +5,35 @@ void setup() {
 }
 
 void loop() {
-  // Activer le moteur vibreur pendant 0.5 seconde
+
+        digitalWrite(VIBRATOR_PIN, HIGH);
+      delay(300);
+      digitalWrite(VIBRATOR_PIN, LOW);
+
+
+  delay(600);
+
+  digitalWrite(VIBRATOR_PIN, HIGH);
+  delay(200);
+  digitalWrite(VIBRATOR_PIN, LOW);
+  delay(200);
+  digitalWrite(VIBRATOR_PIN, HIGH);
+  delay(200);
+  digitalWrite(VIBRATOR_PIN, LOW);
+
+  delay(600);
+
   digitalWrite(VIBRATOR_PIN, HIGH);
   delay(100);
-
-  // Désactiver le moteur vibreur pendant 0.5 seconde
   digitalWrite(VIBRATOR_PIN, LOW);
   delay(100);
+  digitalWrite(VIBRATOR_PIN, HIGH);
+  delay(100);
+  digitalWrite(VIBRATOR_PIN, LOW);
+  delay(100);
+  digitalWrite(VIBRATOR_PIN, HIGH);
+  delay(100);
+  digitalWrite(VIBRATOR_PIN, LOW);
+
+  delay(1000);
 }
