@@ -33,16 +33,6 @@
 
     ![inspiration materiaux 1](/process/2023-12-04/Assemblage%20image%20materiaux%201.jpg)
 
-    - 
-
-
-
-
-# Formes, matériaux et electronique device
-
-
-
-
 # Retours sur la réalisabilité du projet
 
 - Pour la partie dessiner en temps réel : utilisation de l'axidraw car trop compliqué de faire drawing machine dans l'objet

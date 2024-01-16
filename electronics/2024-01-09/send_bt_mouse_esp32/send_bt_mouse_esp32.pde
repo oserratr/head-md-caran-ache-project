@@ -5,7 +5,7 @@ String rfidID = "";
 
 void setup() {
   println(Serial.list());
-  String portName = "COM9";
+  String portName = "COM4";
   serial = new Serial(this, portName, 115200);
   size(2245, 3178);
 

@@ -13,9 +13,3 @@ Données par Laure :
 
 ![sketch 1](/process/2023-12-06/sketch-1.jpg)
 
-
-
-# Matériaux
-
-
-# Scéno

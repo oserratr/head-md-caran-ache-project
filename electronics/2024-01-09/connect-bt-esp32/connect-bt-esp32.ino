@@ -15,14 +15,13 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);
 
 void setup() {
   Serial.begin(115200);
-  SerialBT.begin("ESP32test");  // Bluetooth device name
+  SerialBT.begin("ESP32test2");  // Bluetooth device name
   Serial.println("The device started, now you can pair it with Bluetooth!");
 
 
   pinMode(VIBRATOR_PIN, OUTPUT);
 
-  while (!Serial)
-    ;                                 // Do nothing if no serial port is opened (added for Arduinos based on ATMEGA32U4)
+  while (!Serial);                                 // Do nothing if no serial port is opened (added for Arduinos based on ATMEGA32U4)
   SPI.begin();                        // Init SPI bus
   mfrc522.PCD_Init();                 // Init MFRC522
   delay(4);                           // Optional delay. Some board do need more time after init to be ready, see Readme
